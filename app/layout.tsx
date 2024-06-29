@@ -18,8 +18,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="pt-br" className="bg-neutral-950">
-      <body className={poppins.className}>{children}</body>
+    <html lang="pt-br">
+      <body
+        className={`${poppins.className} flex items-center justify-center bg-neutral-950`}>
+        {children}
+      </body>
     </html>
   );
 }

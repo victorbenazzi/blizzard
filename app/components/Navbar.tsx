@@ -1,19 +1,19 @@
 "use client";
 
+import { ChevronDown } from "lucide-react";
 import React from "react";
-import { CaretDown } from "@phosphor-icons/react";
 
 export default function Navbar() {
   return (
     <nav className="text-neutral-200 text-sm flex items-center justify-center w-fit">
       <ul className="flex items-center gap-x-[34px]">
-        <li className="hover:text-white flex items-center justify-center gap-x-[14px] cursor-pointer">
+        <li className="hover:text-white flex items-center justify-center gap-x-3 cursor-pointer group">
           <a href="#">Jogos</a>
-          <CaretDown size={14} weight="bold" />
+          <ChevronDown size={14} className="group-hover:text-primary" />
         </li>
-        <li className="hover:text-white flex items-center justify-center gap-x-[14px] cursor-pointer">
+        <li className="hover:text-white flex items-center justify-center gap-x-3 cursor-pointer group">
           <a href="#">Esportes</a>
-          <CaretDown size={14} weight="bold" />
+          <ChevronDown size={14} className="group-hover:text-primary" />
         </li>
         <li className="hover:text-white">
           <a href="#">Loja</a>
