@@ -1,0 +1,36 @@
+[
+  {
+    "id": 1,
+    "heading": "Retorne à escuridão com o game Diablo IV",
+    "paragraph": "O retorno de Lilith traz uma era de escuridão e sofrimento",
+    "label_button": "Jogue Agora",
+    "link_button": "https://victorbenazzi.tech",
+    "logo": "/logos/logo-diablo.png",
+    "video_preview": "/images/video-diablo.png",
+    "link_video_preview": "https://victorbenazzi.tech",
+    "background": "/images/diablo-slider-cover.png"
+  },
+  {
+    "id": 2,
+    "heading": "Novo pacote de expansão de Hearthstone",
+    "paragraph": "A Horda e a Aliança se encontraram no Vale Alterac para lutar",
+    "label_button": "Reserve agora na pré-venda",
+    "link_button": "https://victorbenazzi.tech",
+    "logo": "/logos/logo-heartstone.png",
+    "video_preview": "/images/video-heartstone.png",
+    "link_video_preview": "https://victorbenazzi.tech",
+    "background": "/images/heartstone-slider-cover.png"
+  },
+  {
+    "id": 3,
+    "heading": "Desbrave as Terras Sombrias em Shadowlands! ",
+    "paragraph": "O que jaz além do mundo que você conhece?",
+    "label_button": "Reserve agora na pré-venda",
+    "link_button": "https://victorbenazzi.tech",
+    "logo": "/logos/logo-wow.png",
+    "video_preview": "/images/video-wow.png",
+    "link_video_preview": "https://victorbenazzi.tech",
+    "background": "/images/wow-slider-cover.png"
+  }
+  
+]

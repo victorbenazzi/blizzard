@@ -18,6 +18,10 @@ const config = {
       },
     },
     extend: {
+      backgroundImage: {
+        'diablo': "url('/images/diablo-slider-cover.png')",
+        
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",

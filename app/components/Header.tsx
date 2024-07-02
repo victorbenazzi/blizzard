@@ -9,8 +9,9 @@ import { User } from "lucide-react";
 
 export default function Header() {
   return (
-    <div className=" flex items-center justify-center w-full border-b border-neutral-800">
-      <header className="flex items-center justify-between w-full max-w-[1220px] h-24 ">
+    <div className=" flex items-center justify-center w-full border-b-[1.5px] border-white/15 z-40 ">
+      <header className="flex items-center justify-between w-full max-w-[1220px] h-24 relative">
+        <div className="w-[43px] h-[2px] bg-[#00AEFF] absolute left-0 bottom-0"></div>
         <Image src={LogoBlizzard} alt="Blizzard Logo" width={87} height={40} />
         <Navbar />
         <div className="inline-flex gap-x-2">
